@@ -7,36 +7,36 @@
     <title>Document</title>
     <style>
         body {
-            background-color: rgb(31, 31, 31);
+            background-color: black;
         }
 
         canvas {
-            align-self: center;
+            display: block;
+            margin: auto;
             background-color: white;
         }
     </style>
 </head>
 <body>
-    <h1>Heelo</h1>
-    
     <canvas id="c" width="1024" height="1024">
-    <script>
+        <script>
 
-    const context = c.getContext('2d');
+        const context = c.getContext('2d');
 
-    for (let x = 0; x < 1024; x++) 
-    {
-        for (let y = 0; y < 1024; y++) 
-        {   
-            a = x - 1024/2
-            b = y - 1024/2
-            if ( (a * b/2) % Math.ceil(69*Math.sin(a/b)) ) 
-            {
-                context.fillRect(x, y, 1, 1);
+        for (let x = 0; x < 1024; x++) 
+        {
+            for (let y = 0; y < 1024; y++) 
+            {   
+                a = x - 1024/2
+                b = y - 1024/2
+                if ( (a * b/2) % Math.ceil(69*Math.sin(a/b)) ) 
+                {
+                    context.fillRect(x, y, 1, 1);
+                }
             }
         }
-    }
 
-    </script>
+        </script>
+    </canvas>
 </body>
 </html>
