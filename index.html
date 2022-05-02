@@ -5,11 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(31, 31, 31);
+        }
+
+        canvas {
+            align-self: center;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Heelo</h1>
-    <p>wowowowow</p>
-    <p>???????????</p>
-    <p>mloreres</p>
+    
+    <canvas id="c" width="1024" height="1024">
+    <script>
+
+    const context = c.getContext('2d');
+
+    for (let x = 0; x < 1024; x++) 
+    {
+        for (let y = 0; y < 1024; y++) 
+        {   
+            a = x - 1024/2
+            b = y - 1024/2
+            if ( (a * b/2) % Math.ceil(69*Math.sin(a/b)) ) 
+            {
+                context.fillRect(x, y, 1, 1);
+            }
+        }
+    }
+
+    </script>
 </body>
 </html>
