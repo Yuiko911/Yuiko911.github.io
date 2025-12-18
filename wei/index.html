@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WEI</title>
+	<style>
+		html, body {
+			height: 100%;
+		}
+		
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#wei {
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			font-size: 5rem;
+			max-width: 100%;
+
+			text-align: center;
+			overflow-wrap: anywhere;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wei">wei</div>
+	<script>
+		const wei = document.getElementById('wei')
+		setInterval(() => wei.innerText += 'i', 15)
+	</script>
+</body>
+
+</html>
