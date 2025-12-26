@@ -1,10 +1,10 @@
 const imagetemplate = document.getElementsByTagName('template')[0]
 const mainarea = document.getElementsByTagName('main')[0]
 
-const BASE_IMAGE_LINK = "./images/i/"
+const BASE_IMAGE_LINK = "./i/"
 
 function loadImages() {
-    fetch('./images/i/metadata.json')
+    fetch('./i/metadata.json')
         .then(r => r.json())
         .then(img => {
             img.forEach(e => addImage(e))
