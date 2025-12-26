@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    color: black;
+    
+    @media (prefers-color-scheme: dark) {
+        background-color: black;
+        color: white;
+    }
+}
+
+.image-container {
+    position: relative;
+
+    height: fit-content;
+    width: fit-content;
+    max-width: 45%;
+    min-width: 10%;
+    
+    @media (orientation: portrait) {
+        min-width: 10%;
+        max-width: 100%;
+    }
+
+    /* Fit image to container */
+    img {
+        max-width: 100%;
+    }
+
+    /* Show metadata on click */
+    &.active>.image-meta {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.image-meta {
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px black;
+
+    transition: opacity 0.2s, visibility 0.2s;
+    
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+
+    /* Trick to make div fit sibling */
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+    backdrop-filter: blur(10px) brightness(50%);
+
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+
+    overflow: scroll;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    gap: 30px;
+}

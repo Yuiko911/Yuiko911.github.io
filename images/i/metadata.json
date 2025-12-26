@@ -1,0 +1,327 @@
+[
+    {
+        "image": "anime1.bmp",
+        "source": "100Kano",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "anime2.bmp",
+        "source": "100Kano",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "anime3.bmp",
+        "source": "100Kano",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "bluearchive1.bmp",
+        "source": "Blue Archive",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "doujin1.bmp",
+        "source": "?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "doujin2.bmp",
+        "source": "?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "doujin3.bmp",
+        "source": "?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga1.bmp",
+        "source": "Inkya Gal demo Ikigaritai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga2.bmp",
+        "source": "?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga3.bmp",
+        "source": "Koisuru (Otome) no Tsukurikata",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga4.bmp",
+        "source": "Koisuru (Otome) no Tsukurikata",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga5.bmp",
+        "source": "Doushitara Osananajimi ♀ no Kanojo ni Naremasu Ka!?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga6.bmp",
+        "source": "Doushitara Osananajimi ♀ no Kanojo ni Naremasu Ka!?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga7.bmp",
+        "source": "Doushitara Osananajimi ♀ no Kanojo ni Naremasu Ka!?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga8.bmp",
+        "source": "Doushitara Osananajimi ♀ no Kanojo ni Naremasu Ka!?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga9.bmp",
+        "source": "Doushitara Osananajimi ♀ no Kanojo ni Naremasu Ka!?",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga10.bmp",
+        "source": "Our Yuri Started with Me Getting Rejected in a Dream",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga11.bmp",
+        "source": "One Punch Man",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga12.bmp",
+        "source": "Yuri Yuri Panic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga13.bmp",
+        "source": "Yuri Yuri Panic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga14.bmp",
+        "source": "The Fairytale-like You Goes on the Assault",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga15.bmp",
+        "source": "Hyouketsu Reijou-sama [...]",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga16.bmp",
+        "source": "My Mom's a Superstar",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "manga17.bmp",
+        "source": "My Mom's a Superstar",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "meme1.webp",
+        "source": "nowhere",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "meme2.bmp",
+        "source": "Ogami Tsumiki to Kinichijou.",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "meme3.bmp",
+        "source": "nowhere",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "meme4.bmp",
+        "source": "nowhere",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "meme5.bmp",
+        "source": "Subarashiki Hibi",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "meme6.bmp",
+        "source": "Uma Musume",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai1.webp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai2.webp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai3.webp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai4.webp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai5.webp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai6.webp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai7.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai8.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai9.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai10.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai11.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai12.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai13.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai14.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimai15.bmp",
+        "source": "Onii-chan wa Oshimai!",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth1.webp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth2.webp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth3.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth4.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth5.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth6.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth7.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth8.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth9.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth10.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth11.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth12.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaianth13.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "onimaidouj1.bmp",
+        "source": "Onii-chan Is Done for! Official Anthology Comic",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "other1.bmp",
+        "source": "GYARI",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "other2.bmp",
+        "source": "GYARI",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "other3.bmp",
+        "source": "Tumblr",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "yuruyuri1.bmp",
+        "source": "Yuru Yuri",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "yuruyuri2.bmp",
+        "source": "Yuru Yuri",
+        "tags" : ["A", "B"]
+    }, 
+    {
+        "image": "yuruyuri3.bmp",
+        "source": "Yuru Yuri",
+        "tags" : ["A", "B"]
+    }
+]

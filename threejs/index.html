@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test</title>
+	<script type="importmap" lang="js">
+		{"imports": {
+			"three": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.module.js",
+			"three/webgpu": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.webgpu.js",
+			"three/tsl": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.tsl.js",
+			"three/addons/": "https://cdn.jsdelivr.net/npm/three@0.182.0/examples/jsm/"
+		}}
+	</script>
+	<link rel="stylesheet" href="/global.css">
+	<style>
+		body {
+			margin: 0;
+		}
+
+		#overlay {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			z-index: 100;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="overlay">
+		<h1>Three.js test</h1>
+	</div>
+	<script type="module" src="threejs/main.js"></script>
+</body>
+
+</html>
