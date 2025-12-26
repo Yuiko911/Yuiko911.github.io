@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="words.js"></script>
+	<link rel="stylesheet" href="/global.css">
+	<style>
+		#app, section {
+			display: flex;
+			flex-direction: column;
+
+			align-items: center;
+		}
+
+		section {
+			/* border: 1px black solid; */
+			margin-top: 10px;
+
+			button {
+				margin-left: 1em;
+			}
+		}
+
+		.letter-row {
+			display: flex;
+		}
+
+		.letter-input {
+			margin: 5px;
+
+			width: 4rem;
+			height: 4rem;
+			
+			text-align: center;
+			align-content: center;
+			
+			background-color: #787c7e;
+			
+			font-size: 2em;
+			font-weight: bolder;
+			color: white;
+			
+			@media screen and (orientation: portrait) {
+				font-size: 1.5em;
+				width: 3rem;
+				height: 3rem;
+			}
+		}
+
+		.incorrect-letter {
+			background-color: #787c7e;
+		}
+
+		.correct-letter {
+			background-color: #6aaa64;
+		}
+
+		.partial-letter {
+			background-color: #c9b458;
+		}
+	</style>
+	<title>Local</title>
+</head>
+
+<body>
+	<div id="app">
+		<h1>Reverse Wordle</h1>
+
+		<section>
+			<div>
+				<input type="text" maxlength="5" placeholder="Today's word" v-model="todayswordinput">
+				<button @click="getAnswer">Find matches</button>
+			</div>
+		</section>
+
+		<section>
+			<div class="letter-row" v-for="row, rindex in rowcolors">
+				<div v-for="letter, lindex in row" class="letter-input"
+					:class="{'incorrect-letter':letter=='.', 'correct-letter':letter=='!', 'partial-letter':letter=='?'}"
+					@click="toggleLetter(rindex, lindex)">
+					{{ rowletter[rindex][lindex] }}
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h3>Presets</h3>
+			<div>
+				<button @click="setPresets(0)">Reset</button>
+				<button @click="setPresets(1)">67</button>
+				<button @click="setPresets(2)">Landscape</button>
+			</div>
+			<h3>See other solutions</h3>
+			<div>
+				<button @click="seeOtherWords(0)">Row 1</button>
+				<button @click="seeOtherWords(1)">Row 2</button>
+				<button @click="seeOtherWords(2)">Row 3</button>
+				<button @click="seeOtherWords(3)">Row 4</button>
+				<button @click="seeOtherWords(4)">Row 5</button>
+				<button @click="seeOtherWords(5)">Row 6</button>
+			</div>
+		</section>
+
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
